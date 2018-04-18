@@ -1,7 +1,3 @@
-/*!
- * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0. */
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -35,6 +31,25 @@ body {
     display: block;
     color: white
     
+}
+
+header .btn-xl.btn-xl {
+  padding: 20px 40px;
+  border-color: #29AAE2;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #44a8e2;
+  background-color: white;
+}
+
+header .btn-xl.btn-xl:hover {
+
+  background-color: #1073ad;
+  color: white;
+
 }
 
 .navbar-brand span {
@@ -569,6 +584,13 @@ section#contact .btn-xl {
   color: #fff;
   background-color: white;
   color:#44a8e2;
+}
+
+section#contact .btn-xl:hover {
+
+  background-color: #1073ad;
+  color: white;
+
 }
 
 
