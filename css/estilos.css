@@ -346,18 +346,24 @@ body {
 .dr-contact .titulo h3 span {
   color: verde;
 }
-.dr-contact .dr-link {
-  width: 100%;
+.dr-contact .material-icons,
+.dr-contact .fa {
+  background-color: #3c3c3b;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
   display: flex;
   align-content: center;
   align-items: center;
+  justify-content: center;
   margin: 10px 0;
-  color: verde;
-  text-decoration: none;
 }
-.dr-contact .dr-link .material-icons {
-  font-size: 25px;
-  margin-right: 10px;
+.dr-contact p {
+  font-weight: 300;
+  font-size: 13px;
 }
 .dr-contact .contact-form {
   background-color: #fff;
