@@ -1,4 +1,4 @@
-Portafolio web @rozdiego 
+Portafolio web rozdiego.com
 =======
 
-Bienvenidos a mi portafolio web
+Bienvenidos a mi portafolio web 
