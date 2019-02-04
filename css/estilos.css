@@ -265,8 +265,9 @@ body {
 .dr-skill h3 {
   font-weight: 700;
   font-size: 35px;
-  text-align: left;
+  text-align: center;
   color: #000;
+  margin: 12px 0 20px 0;
 }
 .dr-skill h3 span {
   color: #000;
@@ -303,7 +304,7 @@ body {
 .dr-skill .dr-procesocont {
   border-top: 1px solid #000;
   margin: 10px 0;
-  padding: 10px 0;
+  padding: 10px;
 }
 .dr-skill .dr-procesocont h4 {
   font-weight: 700;
@@ -379,6 +380,19 @@ body {
   padding: 50px 0;
   margin: 0;
 }
+.dr-blog .dr-linkpr {
+  position: relative;
+  height: 100%;
+  text-decoration: none;
+}
+.dr-blog .dr-linkpr .link {
+  background-image: url("../images/bg.png");
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+}
 .dr-blog .titulo {
   text-align: center;
   margin: 0px 0 30px 0;
@@ -392,17 +406,6 @@ body {
 }
 .dr-blog .titulo span {
   color: verde;
-}
-.dr-blog .dr-blogbg {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-}
-.dr-blog .dr-blogbg h4 {
-  border-bottom: 1px solid #d3d3d3;
-}
-.dr-blog .dr-blogbg p {
-  font-weight: 300;
 }
 .dr-internaux {
   background-color: #f5f5f5;

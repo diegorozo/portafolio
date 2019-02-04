@@ -270,7 +270,9 @@
                                             practicas en el código semántico
                                         </p>
                                     </div>
+
                                 </div>
+                                <hr>
                             </div>
 
                             <div class="col-md-12">
@@ -287,6 +289,7 @@
                                         </p>
                                     </div>
                                 </div>
+                                <hr>
                             </div>
                             <div class="col-md-12">
                                 <div class="row align-items-center">
@@ -302,6 +305,7 @@
                                         </p>
                                     </div>
                                 </div>
+                                <hr>
                             </div>
                             <div class="col-md-12">
                                 <div class="row align-items-center">
@@ -318,6 +322,7 @@
                                         </p>
                                     </div>
                                 </div>
+                                <hr>
                             </div>
 
 
@@ -335,6 +340,7 @@
                                         </p>
                                     </div>
                                 </div>
+                                <hr>
                             </div>
                             <div class="col-md-12">
                                 <div class="row align-items-center">
@@ -350,6 +356,7 @@
                                         </p>
                                     </div>
                                 </div>
+                                <hr>
                             </div>
                             <div class="col-md-12">
                                 <div class="row align-items-center">
@@ -365,6 +372,7 @@
                                         </p>
                                     </div>
                                 </div>
+                                <hr>
                             </div>
 
                             <div class="col-md-12">
@@ -393,7 +401,7 @@
 
     <section class="dr-blog" id="blog">
         <article class="container">
-            <div class="row">
+            <article class="row">
                 <div class="col-md-12">
                     <div class="titulo">
                         <h3>Mis
@@ -401,19 +409,29 @@
                         </h3>
                     </div>
                 </div>
-                <div class="col-md-6 wow fadeInLeft animated">
-                    <div class="az-blogbg">
-                        <img src="images/dui.jpg" alt="" class="img-fluid">
-                        <a class="btn btn-primary" href="">Ver más</a>
-                    </div>
+                <div class="col-md-4">
+                    <a href="#" class="dr-linkpr">
+                        <img src="images/emi.jpg" alt="" class="img-fluid">
+                        <div class="link" href=""> Proyecto diseño Ux-Ui </div>
+
+                    </a>
                 </div>
-                <div class="col-md-6 wow fadeInLeft animated">
-                    <div class="az-blogbg">
-                        <img src="images/dweb.jpg" alt="" class="img-fluid">
-                        <a class="btn btn-warning" href="">Ver más</a>
-                    </div>
+                <div class="col-md-4">
+                    <a href="#" class="dr-linkpr">
+                        <img src="images/registrada.jpg" alt="" class="img-fluid">
+                        <div class="link" href=""> Proyecto investigación de diseño centrado en el usuario - Ui </div>
+                    </a>
                 </div>
-            </div>
+                <div class="col-md-4">
+                    <a href="#" class="dr-linkpr">
+                        <img src="images/bupa.jpg" alt="" class="img-fluid">
+                        <div class="link" href=""> Proyecto diseño Ux-Ui </div>
+
+                    </a>
+                </div>
+
+                <!-- <div class="col-md-6 wow fadeInLeft animated"></div> -->
+            </article>
         </article>
     </section>
 
@@ -694,17 +712,19 @@
     </footer>
 
     <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/wow.min.js"></script>
+
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js?v=6"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30646137-4"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30646137-4"></script> -->
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -761,18 +781,6 @@
                 }
             });
 
-            // Collapse now if page is not at top
-            navbarCollapse();
-            // Collapse the navbar when page is scrolled
-            $(window).scroll(navbarCollapse);
-
-            // Hide navbar when modals trigger
-            $('.portfolio-modal').on('show.bs.modal', function (e) {
-                $(".navbar").addClass("d-none");
-            })
-            $('.portfolio-modal').on('hidden.bs.modal', function (e) {
-                $(".navbar").removeClass("d-none");
-            })
 
         })(jQuery); // End of use strict
     </script>
