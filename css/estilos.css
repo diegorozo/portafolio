@@ -386,12 +386,13 @@ body {
   text-decoration: none;
 }
 .dr-blog .dr-linkpr .link {
-  background-image: url("../images/bg.png");
+  background: #000;
   width: 100%;
   padding: 20px;
   color: #fff;
   font-weight: 700;
   font-size: 18x;
+  text-align: center;
 }
 .dr-blog .titulo {
   text-align: center;
