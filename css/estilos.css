@@ -383,7 +383,26 @@ body {
 .dr-blog .dr-linkpr {
   position: relative;
   height: 100%;
+  display: block;
   text-decoration: none;
+}
+.dr-blog .dr-linkpr:hover .dr-hover {
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.dr-blog .dr-linkpr:hover .dr-hover i {
+  font-size: 60px;
+  color: #fff;
+}
+.dr-blog .dr-linkpr .dr-hover {
+  display: none;
 }
 .dr-blog .dr-linkpr .link {
   background: #000;
