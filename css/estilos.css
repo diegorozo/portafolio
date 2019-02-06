@@ -432,6 +432,9 @@ body {
   padding: 50px 0;
   margin-top: 80px;
 }
+.dr-internaux .dr-conprot {
+  position: fixed;
+}
 .dr-internaux .titulo {
   display: block;
   margin-bottom: 30px;
@@ -444,6 +447,17 @@ body {
 }
 .dr-internaux .titulo span {
   color: #808080;
+}
+.dr-internaux .dr-fases {
+  margin: 0 0 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+.dr-internaux .dr-fases h4 {
+  font-weight: 700;
+}
+.dr-internaux .dr-fases h4 span {
+  font-weight: 400;
 }
 .dr-internaux .dr-conprot img {
   margin-bottom: 20px;
