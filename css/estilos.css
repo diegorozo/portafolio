@@ -445,6 +445,21 @@ body {
 .dr-internaux .titulo span {
   color: #808080;
 }
+.dr-internaux .dr-conprot img {
+  margin-bottom: 20px;
+}
+.dr-internaux .dr-conprot span {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  color: #808080;
+  display: block;
+}
+.dr-internaux .dr-conprot p {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
 .dr-contact {
   padding: 60px 0;
   background-color: #f5f5f5;
