@@ -171,7 +171,7 @@ body {
   color: #fff;
   font-size: 6px;
 }
-.ig-header {
+.dr-header {
   background-color: #3c3c3b;
   background-image: url("../images/bg.png");
   margin: 80px auto 0 auto;
@@ -179,45 +179,45 @@ body {
   width: 100%;
   min-height: 500px;
 }
-.ig-header .container {
+.dr-header .container {
   height: 100%;
 }
-.ig-header .container .row {
+.dr-header .container .row {
   height: 100%;
 }
-.ig-header h2 {
+.dr-header h2 {
   font-size: 40px;
   font-weight: 700;
   color: #fff;
 }
-.ig-header p {
+.dr-header p {
   margin: 35px 0 0 0;
   color: #fff;
   font-weight: 300;
   display: block;
 }
-.ig-header small {
+.dr-header small {
   display: block;
 }
-.ig-header span {
+.dr-header span {
   font-size: 12px;
   font-weight: 300;
   display: block;
   color: #fff;
   margin: 20px 0;
 }
-.ig-header .dr-logo {
+.dr-header .dr-logo {
   width: 40%;
 }
-.ig-header .btn-secondary {
+.dr-header .btn-secondary {
   width: 30%;
   display: inline-block;
   vertical-align: top;
 }
-.ig-header .btn-secondary:hover {
+.dr-header .btn-secondary:hover {
   background-color: #3c3c3b;
 }
-.ig-header .drbtn {
+.dr-header .drbtn {
   background-color: #008cc9;
   padding: 5px 10px;
   color: #fff;
@@ -228,7 +228,7 @@ body {
   vertical-align: top;
   text-decoration: none;
 }
-.ig-header .drbtn:hover {
+.dr-header .drbtn:hover {
   background-color: #0077b5;
 }
 .dr-aboutme,
@@ -244,9 +244,10 @@ body {
 .dr-skill {
   padding: 50px 0;
   background-color: #3c3c3b;
+  color: #fff;
 }
 .dr-skill .dr-skillbg {
-  background-color: #d3d3d3;
+  background-color: #0077b5;
   padding: 20px;
   border-radius: 10px;
 }
@@ -258,11 +259,11 @@ body {
   font-weight: 700;
   font-size: 35px;
   text-align: center;
-  color: #000;
+  color: #fff;
   margin: 12px 0 20px 0;
 }
 .dr-skill h3 span {
-  color: #000;
+  color: #008cc9;
 }
 .dr-skill .icono {
   background-color: #000;
