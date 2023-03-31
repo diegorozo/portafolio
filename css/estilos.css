@@ -141,6 +141,10 @@ template {
 [hidden] {
   display: none;
 }
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
@@ -150,7 +154,7 @@ template {
 }
 body {
   height: 100%;
-  font-size: 16px;
+  font-size: 16p;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   overflow-x: hidden;
