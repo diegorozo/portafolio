@@ -38,45 +38,60 @@
 
 <body id="page-top" class="text-gray-900">
     <main class="container-full">
-        <!-- <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
-            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
-            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-        </button> -->
         <nav class="fixed left-5 md:left-0 z-40">
             <div class="flex flex-col items-center mx-auto p-2">
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
 
                     <ul class="font-medium text-center bg-yellow-300 shadow dark:bg-gray-900">
                         <li class="my-2">
-                            <a href="#home" data-scroll="home" class="active p-3 block text-white md:bg-transparent dark:bg-gray-700" aria-current="page">
-                                <svg class="w-7 h-7 text-gray-900 dark:text-yellow-300" fill="none" stroke="currentColor" stroke-width="1.5"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
+                            <a href="#home" data-scroll="home"
+                                class="active p-3 block text-white md:bg-transparent dark:bg-gray-700"
+                                aria-current="page">
+                                <svg class="w-7 h-7 text-gray-900 dark:text-yellow-300" fill="none"
+                                    stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25">
+                                    </path>
                                 </svg>
                             </a>
                         </li>
                         <li class="my-2">
-                            <a href="#portfolio" data-scroll="portfolio" class="p-3 block text-white bg-blue-700 md:bg-transparent md:text-blue-700" aria-current="page">
+                            <a href="#portfolio" data-scroll="portfolio"
+                                class="p-3 block text-white bg-blue-700 md:bg-transparent md:text-blue-700"
+                                aria-current="page">
                                 <svg class="w-7 h-7 text-gray-900" fill="none" stroke="currentColor" stroke-width="1.5"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42">
+                                    </path>
 
                                 </svg>
                             </a>
                         </li>
                         <li class="my-2">
-                            <a href="#experiencia" data-scroll="experiencia" class="p-3 block text-white bg-blue-700 md:bg-transparent md:text-blue-700" aria-current="page">
-                                <svg class="w-7 h-7 text-gray-900" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path>
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                  </svg>
+                            <a href="#experiencia" data-scroll="experiencia"
+                                class="p-3 block text-white bg-blue-700 md:bg-transparent md:text-blue-700"
+                                aria-current="page">
+                                <svg class="w-7 h-7 text-gray-900" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z">
+                                    </path>
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
                             </a>
                         </li>
                         <li class="my-2">
-                            <a href="#contacto" data-scroll="contacto" class="p-3 block text-white bg-blue-700 md:bg-transparent md:text-blue-700" aria-current="page">
+                            <a href="#contacto" data-scroll="contacto"
+                                class="p-3 block text-white bg-blue-700 md:bg-transparent md:text-blue-700"
+                                aria-current="page">
                                 <svg class="w-7 h-7 text-gray-900" fill="none" stroke="currentColor" stroke-width="1.5"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z"></path>
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z">
+                                    </path>
                                 </svg>
                             </a>
                         </li>
@@ -85,7 +100,7 @@
                 </div>
             </div>
         </nav>
-        
+
         <section id="home" class="section relative dr-header bg-gray-900 pt-2">
             <article class="container">
                 <div class="row align-items-center">
@@ -133,7 +148,8 @@
                     <div class="col-md-8 offset-md-4">
                         <ul class="mb-4 border-b border-gray-400">
                             <li>
-                                <a href="#contacto" data-scroll="contacto" class="inline-flex items-center font-medium hover:underline">
+                                <a href="#contacto" data-scroll="contacto"
+                                    class="inline-flex items-center font-medium hover:underline">
                                     <svg class="w-7 h-7 mr-2 text-yellow-300" fill="none" stroke="currentColor"
                                         stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                         aria-hidden="true">
@@ -145,7 +161,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#contacto" data-scroll="contacto" class="inline-flex items-center font-medium hover:underline">
+                                <a href="#contacto" data-scroll="contacto"
+                                    class="inline-flex items-center font-medium hover:underline">
                                     <svg class="w-7 h-7 mr-2 text-yellow-300" fill="none" stroke="currentColor"
                                         stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                         aria-hidden="true">
@@ -157,7 +174,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="DiegoRozo-CV-UIUX_.pdf" target="_blank" class="inline-flex items-center font-medium hover:underline">
+                                <a href="DiegoRozo-CV-UIUX_.pdf" target="_blank"
+                                    class="inline-flex items-center font-medium hover:underline">
                                     <svg class="w-7 h-7 mr-2 text-yellow-300" fill="none" stroke="currentColor"
                                         stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                         aria-hidden="true">
@@ -222,89 +240,264 @@
         </section>
 
         <section id="portfolio" class="section dr-portfolio dr-p-8 bg-blue-100">
-            <article class="container">
+            <div class="container">
                 <h2 class="text-2xl font-bold uppercase mb-3">Portafolio</h2>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div
-                            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <article class="grid md:grid-cols-3 md:gap-6 py-5">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                        <img class="rounded-t-lg" src="images/emi.jpg" alt="" />
+
+                        <div class="p-3">
                             <a href="#">
-                                <img class="rounded-t-lg" src="https://picsum.photos/600/300/?blur=5" alt="" />
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                    Grupo EMI
+                                </h5>
                             </a>
-                            <div class="p-3">
-                                <a href="#">
-                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                        Noteworthy technology acquisitions 2021
-                                    </h5>
-                                </a>
-                                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                                    Here are the biggest enterprise technology acquisitions of
-                                    2021 so far, in reverse chronological order.
-                                </p>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                En este proyecto, trabajé como experto en UX y UI para Grupo EMI en Colombia y UCM.
+                            </p>
 
-                                <!-- drawer init and toggle -->
-                                <div class="text-center">
-                                    <button
-                                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                                        type="button" data-drawer-target="drawer-right-example"
-                                        data-drawer-show="drawer-right-example" data-drawer-placement="right"
-                                        aria-controls="drawer-right-example">
-                                        Show right drawer
-                                    </button>
-                                </div>
+                            <!-- drawer init and toggle -->
 
-                                <!-- drawer component -->
-                                <div id="drawer-right-example"
-                                    class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-white w-80"
-                                    tabindex="-1" aria-labelledby="drawer-right-label">
-                                    <h5 id="drawer-right-label"
-                                        class="inline-flex items-center mb-4 text-base font-semibold text-gray-500 dark:text-gray-400">
-                                        <svg class="w-5 h-5 mr-2" aria-hidden="true" fill="currentColor"
-                                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>Right drawer
-                                    </h5>
-                                    <button type="button" data-drawer-hide="drawer-right-example"
-                                        aria-controls="drawer-right-example"
-                                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
-                                        <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>
-                                        <span class="sr-only">Close menu</span>
-                                    </button>
-                                    <p class="mb-6 text-sm text-gray-500 dark:text-gray-400">
-                                        Supercharge your hiring by taking advantage of our
-                                        <a href="#"
-                                            class="text-blue-600 underline font-medium dark:text-blue-500 hover:no-underline">limited-time
-                                            sale</a>
-                                        for Flowbite Docs + Job Board. Unlimited access to over
-                                        190K top-ranked candidates and the #1 design job board.
-                                    </p>
-                                    <div class="grid grid-cols-2 gap-4">
-                                        <a href="#"
-                                            class="px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-200 rounded-lg focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn
-                                            more</a>
-                                        <a href="#"
-                                            class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get
-                                            access
-                                            <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="currentColor"
-                                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd"
-                                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                                    clip-rule="evenodd"></path>
-                                            </svg></a>
+                            <button
+                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                                type="button" data-drawer-target="drawer-right-example"
+                                data-drawer-show="drawer-right-example" data-drawer-placement="right"
+                                aria-controls="drawer-right-example">
+                                Ver proyecto
+                            </button>
+
+                            <!-- drawer component -->
+                            <div id="drawer-right-example"
+                                class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-white w-80"
+                                tabindex="-1" aria-labelledby="drawer-right-label">
+                                <h5 id="drawer-right-label" class="inline-flex mb-4">
+                                    <img src="images/emi.png" alt="">
+                                </h5>
+                                <button type="button" data-drawer-hide="drawer-right-example"
+                                    aria-controls="drawer-right-example"
+                                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
+                                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span class="sr-only">Close menu</span>
+                                </button>
+                                <div class="grid grid-cols-2 gap-2 mb-4">
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/emi/image1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/emi/image2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/emi/image3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/emi/image4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/emi/image5.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/emi/image6.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/emi/image7.jpg" alt="">
                                     </div>
                                 </div>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    En este proyecto, trabajé como experto en UX y UI para Grupo EMI en Colombia y UCM
+                                    en Uruguay. El objetivo era crear una plataforma en línea que permitiera a los
+                                    usuarios acceder a su historial clínico, solicitar citas y programar consultas con
+                                    especialistas médicos.
+                                </p>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    Para lograr esto, trabajé en el diseño de una interfaz intuitiva y fácil de usar,
+                                    que permitiera a los usuarios acceder a la información que necesitan de manera
+                                    rápida y sencilla. Además, me aseguré de que la plataforma fuera accesible para
+                                    todos los usuarios, independientemente de sus habilidades tecnológicas o
+                                    discapacidades.
+                                </p>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    En este proyecto, utilicé la metodología Design Sprint para el proceso de diseño y
+                                    la metodología Agile como proyecto. Design Sprint nos permitió enfocarnos en el
+                                    problema, identificar las necesidades de los usuarios y crear soluciones centradas
+                                    en ellos. Utilizamos la retroalimentación de los usuarios, especialistas médicos y
+                                    los Product Owner para refinar nuestras soluciones.
+                                </p>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    Utilizamos la metodología Agile para organizar el trabajo en sprints quincenales y
+                                    avanzar en el diseño y desarrollo de la plataforma de manera eficiente. La
+                                    combinación de estas metodologías nos permitió crear soluciones innovadoras y
+                                    entregar valor constantemente. El resultado final es una plataforma intuitiva y
+                                    fácil de usar que será de gran ayuda para muchos pacientes en Colombia y Uruguay.
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </article>
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                        <img class="rounded-t-lg" src="images/bupa.jpg" alt="" />
+
+                        <div class="p-3">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                    BUPA
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Tuve la oportunidad de aplicar las metodologías Design Thinking y Agile en un
+                                proyecto emocionante
+                            </p>
+
+                            <!-- drawer init and toggle -->
+
+                            <button
+                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                                type="button" data-drawer-target="drawer-right-bupa"
+                                data-drawer-show="drawer-right-bupa" data-drawer-placement="right"
+                                aria-controls="drawer-right-bupa">
+                                Ver proyecto
+                            </button>
+
+                            <!-- drawer component -->
+                            <div id="drawer-right-bupa"
+                                class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-white w-80"
+                                tabindex="-1" aria-labelledby="drawer-right-label">
+                                <h5 id="drawer-right-label" class="inline-flex mb-4">
+                                    <img src="images/Bupa.png" alt="">
+                                </h5>
+                                <button type="button" data-drawer-hide="drawer-right-bupa"
+                                    aria-controls="drawer-right-bupa"
+                                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
+                                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span class="sr-only">Close menu</span>
+                                </button>
+                                <div class="grid grid-cols-2 gap-2 mb-4">
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/bupa/image1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/bupa/image2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/bupa/image3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/bupa/image4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/bupa/image5.jpg" alt="">
+                                    </div>
+                                </div>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    En mi rol de experto en UX/UI para Bupa, trabajé en un proyecto importante utilizando las metodologías Design Thinking y Agile. Bupa es una compañía líder global en el cuidado de la salud y ofrece una amplia variedad de productos y servicios. Utilizamos Design Thinking para comprender las necesidades y deseos de los usuarios, mientras que Agile fue aplicado como proyecto para asegurar una ejecución efectiva y eficiente.
+                                </p>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    El resultado final fue una plataforma en línea para suscripción médica, la cual fue fácil de usar y ofrecía una amplia variedad de servicios y productos basados en el bienestar y la salud. Esta plataforma mejoró la experiencia de los usuarios y facilitó el acceso a los servicios de salud. Me enorgullece haber sido parte de este proyecto y haber aplicado metodologías efectivas que permitieron la creación de una solución innovadora y eficiente.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                        <img class="rounded-t-lg" src="images/registrada.jpg" alt="" />
+
+                        <div class="p-3">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                    Tienda Tegistrada
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Trabajé como experto en UX y UI para Tienda Registrada, donde apliqué la metodología de Design Sprint
+                            </p>
+
+                            <!-- drawer init and toggle -->
+
+                            <button
+                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                                type="button" data-drawer-target="drawer-right-tienda"
+                                data-drawer-show="drawer-right-tienda" data-drawer-placement="right"
+                                aria-controls="drawer-right-tienda">
+                                Ver proyecto
+                            </button>
+
+                            <!-- drawer component -->
+                            <div id="drawer-right-tienda"
+                                class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-white w-80"
+                                tabindex="-1" aria-labelledby="drawer-right-label">
+                                <h5 id="drawer-right-label" class="inline-flex mb-4">
+                                    <img class="w-80" src="images/logo-tenderos.png" alt="" style="">
+                                </h5>
+                                <button type="button" data-drawer-hide="drawer-right-tienda"
+                                    aria-controls="drawer-right-tienda"
+                                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
+                                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span class="sr-only">Close menu</span>
+                                </button>
+                                <div class="grid grid-cols-3 gap-2 mb-4">
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/tienda/image1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/tienda/image2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/tienda/image3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/tienda/image4.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/tienda/image5.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/tienda/image6.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/tienda/image7.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/tienda/image8.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="h-auto max-w-full rounded-lg" src="images/tienda/image9.jpg" alt="">
+                                    </div>
+                                </div>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    Trabajé como experto en UX y UI para Tienda Registrada, donde apliqué la metodología de Design Sprint en el proceso de diseño de la plataforma. Además, utilizamos la metodología Agile como proyecto para garantizar que el desarrollo se realizara de manera efectiva y eficiente.   
+                                </p>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    Durante el proceso de Design Sprint, trabajamos en equipo para idear y prototipar soluciones rápidas y efectivas para los problemas que surgieron durante el proceso de diseño. Utilizando esta metodología, pudimos validar ideas rápidamente y obtener feedback de los usuarios para iterar y mejorar la solución final.
+                                </p>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    Al implementar la metodología Agile como proyecto, pudimos asegurarnos de que el desarrollo de la plataforma se realizara de manera colaborativa y en ciclos de iteración rápidos y eficientes. Esto nos permitió adaptarnos a los cambios y ajustar la solución de manera oportuna y efectiva.
+                                </p>
+                                <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    Como resultado, pudimos entregar una plataforma innovadora y de alta calidad para Tienda Registrada, que cumplía con las necesidades de los usuarios y estaba diseñada para mejorar la eficacia de los procesos de venta en las tiendas de barrio en Colombia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <section id="experiencia" class="section dr-experiennce dr-p-8">
@@ -340,11 +533,11 @@
                             </p>
                             <p class="text-base font-bold text-gray-500">
                                 Programas:
-                                <ul class="text-base font-normal text-gray-500 list-disc list-inside">
-                                    <li>Figma</li>
-                                    <li>Adobe XD</li>
-                                    <li>Adobe CC</li>
-                                </ul>
+                            <ul class="text-base font-normal text-gray-500 list-disc list-inside">
+                                <li>Figma</li>
+                                <li>Adobe XD</li>
+                                <li>Adobe CC</li>
+                            </ul>
                             </p>
 
                         </li>
@@ -382,11 +575,11 @@
 
                             <p class="text-base font-bold text-gray-500">
                                 Programas:
-                                <ul class="text-base font-normal text-gray-500 list-disc list-inside">
-                                    <li>Figma</li>
-                                    <li>Adobe XD</li>
-                                    <li>Adobe CC</li>
-                                </ul>
+                            <ul class="text-base font-normal text-gray-500 list-disc list-inside">
+                                <li>Figma</li>
+                                <li>Adobe XD</li>
+                                <li>Adobe CC</li>
+                            </ul>
                             </p>
                         </li>
                         <li class="ml-6">
@@ -447,7 +640,7 @@
                         <h2 class="text-2xl font-bold uppercase mb-3 p-6 pb-1">
                             Escribame
                         </h2>
-    
+
                         <form class="p-6 pt-1">
                             <div class="grid md:grid-cols-2 md:gap-6">
                                 <div class="relative z-0 w-full mb-6 group">
@@ -455,16 +648,16 @@
                                         class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-900 appearance-none focus:outline-none focus:ring-0 focus:border-blue-800 peer"
                                         placeholder=" " required />
                                     <label for="floating_first_name"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-b8ue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First
-                                        name</label>
+                                        class="peer-focus:font-medium absolute text-sm text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-b8ue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                        Primer Nombre
+                                    </label>
                                 </div>
                                 <div class="relative z-0 w-full mb-6 group">
                                     <input type="email" name="floating_email" id="floating_email"
                                         class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-900 appearance-none focus:outline-none focus:ring-0 focus:border-blue-800 peer"
                                         placeholder=" " required />
                                     <label for="floating_email"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-b8ue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email
-                                        address</label>
+                                        class="peer-focus:font-medium absolute text-sm text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-b8ue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Dirección de Correo</label>
                                 </div>
                             </div>
                             <div class="relative z-0 w-full mb-6 group">
@@ -472,52 +665,50 @@
                                     class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-900 appearance-none focus:outline-none focus:ring-0 focus:border-blue-800 peer"
                                     placeholder=" " required></textarea>
                                 <label for="floating_last_name"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-b8ue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                                    class="peer-focus:font-medium absolute text-sm text-gray-900 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-b8ue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Mensaje</label>
                             </div>
                             <button type="submit"
                                 class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                Submit
+                                Enviar
                             </button>
                         </form>
                     </div>
                     <div class="col-md-6">
                         <div class="dr-social align-items-center">
                             <div class="flex flex-col items-center md:flex-row md:max-w-xl">
-                                <svg class="w-12 h-12 mr-2" fill="none" stroke="currentColor"
-                                    stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true">
+                                <svg class="w-12 h-12 mr-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75">
                                     </path>
                                 </svg>
                                 <div class="flex flex-col justify-between p-4 leading-normal">
-                                    <p class="font-normal">Correo electronico</p>
+                                    <p class="font-normal">Correo electrónico</p>
                                     <h5 class="text-3xl font-bold tracking-tight">
-                                      <a class="hover:underline" href="mailto:rozdiego@gmail.com">rozdiego@gmail.com</a>  
+                                        <a class="hover:underline"
+                                            href="mailto:rozdiego@gmail.com">rozdiego@gmail.com</a>
                                     </h5>
                                 </div>
                             </div>
-    
+
                             <div class="flex flex-col items-center md:flex-row md:max-w-xl">
-                                <svg class="w-12 h-12 mr-2" fill="none" stroke="currentColor"
-                                    stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true">
+                                <svg class="w-12 h-12 mr-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3">
                                     </path>
                                 </svg>
                                 <div class="flex flex-col justify-between p-4 leading-normal">
-                                    <p class="font-normal">Numero de contacto</p>
+                                    <p class="font-normal">Número de contacto</p>
                                     <h5 class="text-3xl font-bold tracking-tight">
                                         +57 3002135654
                                     </h5>
                                 </div>
                             </div>
-    
+
                             <div class="flex flex-col items-center md:flex-row md:max-w-xl">
-                                <svg class="w-12 h-12 mr-2" fill="none" stroke="currentColor"
-                                    stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                    aria-hidden="true">
+                                <svg class="w-12 h-12 mr-2" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244">
                                     </path>
@@ -525,7 +716,8 @@
                                 <div class="flex flex-col justify-between p-4 leading-normal">
                                     <p class="font-normal">Linkedin</p>
                                     <h5 class="text-3xl font-bold tracking-tight">
-                                      <a class="hover:underline" href="https://www.linkedin.com/in/rozdiego/" target="_blank">@rozdiego</a>  
+                                        <a class="hover:underline" href="https://www.linkedin.com/in/rozdiego/"
+                                            target="_blank">@rozdiego</a>
                                     </h5>
                                 </div>
                             </div>
@@ -536,7 +728,8 @@
         </section>
 
         <footer class="py-3 text-center bg-gray-900 ">
-            <h3 class="font-regular text-gray-300">Design <a class="hover:underline" target="_blank" href="https://www.linkedin.com/in/rozdiego/">Diego Rozo</a> </h3>
+            <h3 class="font-regular text-gray-300">Design <a class="hover:underline" target="_blank"
+                    href="https://www.linkedin.com/in/rozdiego/">Diego Rozo</a> </h3>
         </footer>
 
     </main>
