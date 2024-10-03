@@ -5,6 +5,6 @@ import robotsTxt from "astro-robots-txt"
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://rozdiego.github.io/Portafolio/',
+  site: 'https://www.rozdiego.com',
   base: 'Portafolio',
 })
