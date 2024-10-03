@@ -1,0 +1,36 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCE = [
+  {
+    date: "Actualmente...",
+    title: "UX/UI Designer",
+    company: "Telefónica",
+    description:
+      "Product Designer para los servicios Movistar Pospago - Fibra y Terminales, donde diseñé y desarrollé la interfaz de usuario (UI) y experiencia de usuario (UX) para la tienda en línea de terminales de Movistar. Mis responsabilidades incluyeron la investigación de usuarios (User Research), colaboración con stakeholders en el descubrimiento de productos digitales, diseño y arquitectura de sistemas de diseño, y desarrollo de prototipos UX/UI de alta y baja fidelidad, siempre con un enfoque centrado en el usuario.",
+  },
+  {
+    date: "Oct. 2020 - Oct. 2021",
+    title: "UX/UI Designer",
+    company: "Quick",
+    description:
+      "Fui especialista en la gestión, consultoría y desarrollo de procesos de experiencia de usuario (UX), diseñando sistemas de diseño para el sector de transporte y logística. Me enfoqué en desarrollar soluciones digitales atractivas y funcionales, mejorando la experiencia del usuario. Además, realicé entrevistas a los Quickers para comprender sus necesidades y crear soluciones digitales efectivas que satisfagan sus expectativas.",
+  },
+  {
+    date: "Oct. 2017 - May. 2020",
+    title: "UX/UI Designer",
+    company: "Intergrupo (Software One) ",
+    description:
+      "Diseñé y desarrollé sistemas de diseño para la compañía, con habilidades en la creación de wireframes, mockups y prototipos de alta y baja fidelidad. Además, participé en la creación de arquitectura de información, mapas mentales y user flows, con el objetivo de optimizar y mejorar la experiencia del usuario en cada proyecto.",
+  },
+];
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCE.map((experience) => (
+      <li class="">
+        <ExperienceItem {...experience} />
+      </li>
+    ))
+  }
+</ol>
